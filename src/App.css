@@ -1,5 +1,9 @@
+a{
+    color: #ffffff;
+}
+
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -7,16 +11,71 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+/* Navbar */
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.nav-link span{
+    font-weight: 600;
+    color: #fda600;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fda600 !important;
+    background-color: transparent !important;
+    border-left: 2px solid #fda600;
+    border-radius: 0;
+}
+
+/* Landing */
+.landing-page h1 {
+    color: #fda600;
+}
+
+.landing-page h2 {
+    color: #E2EFFF;
+}
+
+.landing-page h3 {
+    color: #7D87A7;
+}
+
+.landing-page p {
+    color: #7A84A4;
+}
+
+/* Experience */
+.experience-page a {
+    color: #E2EFFF;
+}
+
+.experience-page a:hover {
+    color: #fda600 !important;
+}
+
+/* Work */
+.work-page .card-footer span {
+    background: #cccccc;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.work-page .card-footer span:hover{
+    background: #fda600;
+    cursor: pointer;
 }

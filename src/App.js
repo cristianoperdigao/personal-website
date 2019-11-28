@@ -1,18 +1,20 @@
 import React from 'react';
 import './App.css';
-import HomepageImage from './components/HomepageImage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Container } from 'react-bootstrap';
+import LayoutTopbar from './components/helpers/topbar';
+import Main from './components/main';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <HomepageImage />
-        <p>
-          My new website
-        </p>
-      </header>
-    </div>
-  );
+	return (
+        <div>
+            <LayoutTopbar />
+            <Container>
+                <Main/>
+            </Container>
+        </div>
+	);
 }
 
 export default App;
