@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
 a{
     color: #ffffff;
+}
+
+.custom-logo {
+    font-family: 'Work Sans', sans-serif;
+    color: #fda600 !important;
+    font-weight: 600;
+}
+
+.custom-logo span{
+    font-size: 2rem;
+    position: absolute;
 }
 
 .App-logo {
