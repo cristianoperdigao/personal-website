@@ -2,10 +2,6 @@ a{
     color: #ffffff;
 }
 
-.App {
-
-}
-
 .App-logo {
   height: 40vmin;
 }
@@ -58,6 +54,11 @@ a{
 }
 
 /* Experience */
+
+.experience-page h1 {
+    color: #fda600;
+}
+
 .experience-page a {
     color: #E2EFFF;
 }
@@ -67,6 +68,11 @@ a{
 }
 
 /* Work */
+
+.work-page h1 {
+    color: #fda600;
+}
+
 .work-page .card-footer span {
     background: #cccccc;
     color: #fff;
@@ -78,4 +84,10 @@ a{
 .work-page .card-footer span:hover{
     background: #fda600;
     cursor: pointer;
+}
+
+/* Work */
+
+.about-page h1 {
+    color: #fda600;
 }

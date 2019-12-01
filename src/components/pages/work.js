@@ -6,25 +6,26 @@ class Work extends Component {
     render() {
         return (
             <div className="work-page">
-                <h1>Some Things I've Built</h1>
+                <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="0">
+                    <h1 className="mt-5 mb-5">Work</h1>
+                </Animated>
                 <CardColumns>
-                    <Animated animationIn="fadeInLeft" animationOut="fadeOut" animationInDelay="100">
+                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="400">
                         <Card>
                             <Card.Img variant="top" src="https://i0.wp.com/omeubau.net/wp-content/uploads/2014/09/google_imagens.jpg" />
                             <Card.Body>
-                                <Card.Title>Google Engine</Card.Title>
+                                <Card.Title>Personal Website</Card.Title>
                                 <Card.Text>
                                     A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <span className="mr-3">Next.js</span>
-                                <span className="mr-3">Chart.js</span>
-                                <span>GitHub API</span>
+                                <span className="mr-3">React</span>
+                                <span className="mr-3">Animate.css</span>
                             </Card.Footer>
                         </Card>
                     </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="600">
+                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="800">
                         <Card>
                             <Card.Body>
                                 <Card.Title>Spotify Web Player</Card.Title>
@@ -39,7 +40,7 @@ class Work extends Component {
                             </Card.Footer>
                         </Card>
                     </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="700">
+                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1000">
                         <Card bg="warning" text="white" className="text-center p-3">
                             <blockquote className="blockquote mb-0 card-body">
                                 <p>
@@ -54,7 +55,7 @@ class Work extends Component {
                             </blockquote>
                         </Card>
                     </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="800">
+                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1100">
                         <Card>
                             <Card.Body>
                                 <Card.Title>uTube Tools</Card.Title>
@@ -67,7 +68,7 @@ class Work extends Component {
                             </Card.Footer>
                         </Card>
                     </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1000">
+                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1300">
                         <Card>
                             <Card.Body>
                                 <Card.Title>Webcrawler Stackoverflow</Card.Title>
