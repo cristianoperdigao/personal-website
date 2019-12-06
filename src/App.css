@@ -104,3 +104,68 @@ a{
 .about-page h1 {
     color: #fda600;
 }
+
+
+/* Social */
+.social-networks-container {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+}
+
+.social-networks-ul {
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.social-networks-ul::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 190px;
+    background-color: #fda600;
+    margin: 0px auto;
+}
+
+.social-networks-ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.social-networks-ul li:last-of-type {
+    margin-bottom: 20px;
+}
+
+.social-networks-ul li a {
+    color: #fda600;
+    cursor: pointer;
+    -webkit-transition: opacity 0.1s ease-in;
+       -moz-transition: opacity 0.1s ease-in;
+         -o-transition: opacity 0.1s ease-in;
+                                  opacity: 0.2;
+}
+
+.social-networks-ul li a:hover {
+    opacity: 1;
+}
+
+.social-networks-ul li a svg {
+    font-size: 1.7rem;
+}
+
+@media (max-width: 62.5em){
+    .social-networks-container {
+        left: 25px;
+    }
+}
+
+@media (max-width: 48em) {
+    .social-networks-container {
+        display: none;
+    }
+}
