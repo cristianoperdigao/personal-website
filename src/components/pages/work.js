@@ -11,73 +11,55 @@ class Work extends Component {
                 </Animated>
                 <CardColumns>
                     <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="400">
-                        <Card>
-                            <Card.Img variant="top" src="https://i0.wp.com/omeubau.net/wp-content/uploads/2014/09/google_imagens.jpg" />
+                        <Card className="border-0">
+                            <Card.Img variant="top" src="./assets/img/recipy.jpg" />
                             <Card.Body>
-                                <Card.Title>Personal Website</Card.Title>
+                                <Card.Title>Recipy</Card.Title>
                                 <Card.Text>
-                                    A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+                                    Discover recipes and how-tos based on the ingredients you have available.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
+                                <span className="mr-3">Javascript</span>
                                 <span className="mr-3">React</span>
-                                <span className="mr-3">Animate.css</span>
+                                <span className="mr-3">Go</span>
+                                <span className="mr-3">Gin</span>
+                                <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
                     </Animated>
                     <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="800">
-                        <Card>
+                        <Card className="border-0">
+                            <Card.Img variant="top" src="./assets/img/swipedev.jpg" />
                             <Card.Body>
-                                <Card.Title>Spotify Web Player</Card.Title>
+                                <Card.Title>Swipe Dev</Card.Title>
                                 <Card.Text>
-                                    A nicer look at your GitHub profile and repo stats. 
+                                    Match with companies you know, share ideas, and build your career.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <span className="mr-3">Next.js</span>
-                                <span className="mr-3">Chart.js</span>
-                                <span>GitHub API</span>
+                                <span className="mr-3">Javascript</span>
+                                <span className="mr-3">Ruby</span>
+                                <span className="mr-3">Ruby on rails</span>
+                                <span className="mr-3">MySQL</span>
                             </Card.Footer>
-                        </Card>
-                    </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1000">
-                        <Card bg="warning" text="white" className="text-center p-3">
-                            <blockquote className="blockquote mb-0 card-body">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                    erat a ante.
-                                </p>
-                                <footer className="blockquote-footer">
-                                    <small className="text-muted">
-                                        Someone famous in <cite title="Source Title">Source Title</cite>
-                                    </small>
-                                </footer>
-                            </blockquote>
                         </Card>
                     </Animated>
                     <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1100">
-                        <Card>
+                        <Card className="border-0">
+                            <Card.Img variant="top" src="./assets/img/leilaopublico.jpg" />
                             <Card.Body>
-                                <Card.Title>uTube Tools</Card.Title>
+                                <Card.Title>Leilão Público</Card.Title>
                                 <Card.Text>
-                                    Python Script with a few tools to handle youtube videos from the list 
+                                    Portuguese online auction featuring a wide range of special objects.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <span>Python</span>
-                            </Card.Footer>
-                        </Card>
-                    </Animated>
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="1300">
-                        <Card>
-                            <Card.Body>
-                                <Card.Title>Webcrawler Stackoverflow</Card.Title>
-                                <Card.Text>
-                                    Python script to captures data from questions of stackoverflow and save the information in MySQL database.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <span>Python</span>
+                                <span className="mr-3">Javascript</span>
+                                <span className="mr-3">PHP</span>
+                                <span className="mr-3">React</span>
+                                <span className="mr-3">Symfony</span>
+                                <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
                     </Animated>
