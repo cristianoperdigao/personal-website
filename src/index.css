@@ -6,6 +6,7 @@ html {
     background-color: #0D1829 !important;
     background: url(/assets/img/me_background.png) no-repeat;
     background-position: right bottom;
+    
 }
 
 body {
@@ -26,5 +27,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    background-blend-mode: overlay;
+  }
 }
 
