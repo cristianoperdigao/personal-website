@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 function LayoutTopbar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark">
-            <Navbar.Brand className="custom-logo" href="/">Perdigao <span>🚀</span></Navbar.Brand>
+            <Navbar.Brand className="custom-logo" href="/"><h1>_🚀</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"></Nav>

@@ -16,10 +16,10 @@ class Landing extends Component {
                         <h3 className="mt-5">I build things for the web.</h3>
                     </Animated>
                     <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="900">
-                        <p className="mt-3">I'm a Full-Stack Developer based in London, with passion in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
+                        <p className="mt-3">Currently based in London, UK as Full-Stack Developer.</p>
                     </Animated>
                     <Animated animationIn="bounceIn" animationInDelay="1500">
-                        <Button className="mt-5" variant="outline-warning">Let's talk</Button>
+                        <Button className="mt-3" href="https://www.linkedin.com/in/cristianoperdigao/" variant="outline-warning">Let's talk</Button>
                     </Animated>
                 </Col>
             </Row>
