@@ -105,6 +105,21 @@ a{
     color: #fda600;
 }
 
+.about-me-social-networks-container a {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #fda600;
+    cursor: pointer;
+    -webkit-transition: opacity 0.1s ease-in;
+       -moz-transition: opacity 0.1s ease-in;
+         -o-transition: opacity 0.1s ease-in;
+                                  opacity: 0.2;
+}
+
+.about-me-social-networks-container a:hover {
+    opacity: 1;
+    color: #fda600;
+}
 
 /* Social */
 .social-networks-container {

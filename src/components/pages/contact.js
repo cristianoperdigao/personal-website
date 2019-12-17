@@ -12,16 +12,13 @@ class Contact extends Component {
                     </Animated>
                     <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="600">
                         <Row>
-                            <Col xs={12} lg={3} className="d-flex justify-content-center">
-                                <Image src="./assets/img/me.jpg" className="img-fluid img-thumbnail" roundedCircle />
-                            </Col>
                             <Col xs={12} lg={6} className="d-flex align-self-center mt-2">
                                 <p>
                                     I am not currently looking for full-time opportunities, <strong>but</strong> I am always open
                                     to collaborations and other fun stuff. If you’re interested in 
                                     discussing a project, making something great together, or simply getting in touch. <br/>
                                     
-                                    <Button className="mt-3" href="https://www.linkedin.com/in/cristianoperdigao/" variant="outline-warning">Send me a message</Button>
+                                    <Button className="mt-4" href="https://www.linkedin.com/in/cristianoperdigao/" variant="outline-warning">Send me a message</Button>
                                 </p>
                             </Col>
                         </Row>

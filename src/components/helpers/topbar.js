@@ -5,7 +5,7 @@ function LayoutTopbar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark">
             <Navbar.Brand className="custom-logo" href="/">
-                <Image src="./assets/img/avatar.jpg" className="img-fluid img-thumbnail w-100" roundedCircle />
+                <Image src="./assets/img/avatar.jpg" className="img-fluid w-50" roundedCircle />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
