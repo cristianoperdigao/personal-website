@@ -5,7 +5,7 @@ import { Animated } from "react-animated-css";
 class Experience extends Component {
     render() {
         return (
-            <div className="experience-page">
+            <div className="experience-page mb-5">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="100">
                     <h1 className="mt-5 mb-5">Experience</h1>
                 </Animated>

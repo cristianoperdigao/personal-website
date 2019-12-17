@@ -1,10 +1,12 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Image } from 'react-bootstrap';
 
 function LayoutTopbar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark">
-            <Navbar.Brand className="custom-logo" href="/"><h1>_🚀</h1></Navbar.Brand>
+            <Navbar.Brand className="custom-logo" href="/">
+                <Image src="./assets/img/avatar.jpg" className="img-fluid img-thumbnail w-100" roundedCircle />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"></Nav>
