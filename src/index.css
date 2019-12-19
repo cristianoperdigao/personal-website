@@ -32,6 +32,8 @@ code {
 @media only screen and (max-width: 600px) {
   html {
     background-blend-mode: overlay;
+    background-position: 0% bottom;
+
   }
 }
 

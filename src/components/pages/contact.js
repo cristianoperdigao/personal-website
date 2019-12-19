@@ -6,7 +6,7 @@ class Contact extends Component {
     render() {
         return (
             <Row>
-                <Col className="landing-page">
+                <Col className="contact-page">
                     <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="200">
                         <h1 className="mt-5 mb-5">Get In Touch</h1>
                     </Animated>

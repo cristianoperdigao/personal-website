@@ -21,9 +21,7 @@ class Work extends Component {
                             </Card.Body>
                             <Card.Footer>
                                 <span className="mr-3">Javascript</span>
-                                <span className="mr-3">React</span>
                                 <span className="mr-3">Go</span>
-                                <span className="mr-3">Gin</span>
                                 <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
@@ -40,7 +38,6 @@ class Work extends Component {
                             <Card.Footer>
                                 <span className="mr-3">Javascript</span>
                                 <span className="mr-3">Ruby</span>
-                                <span className="mr-3">Ruby on rails</span>
                                 <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
@@ -57,8 +54,6 @@ class Work extends Component {
                             <Card.Footer>
                                 <span className="mr-3">Javascript</span>
                                 <span className="mr-3">PHP</span>
-                                <span className="mr-3">React</span>
-                                <span className="mr-3">Symfony</span>
                                 <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
