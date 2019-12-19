@@ -1,5 +1,7 @@
 ## My personal website - perdigao.net
 
+![alt text](https://raw.githubusercontent.com/cristianodpp/personal-website/master/demo.png)
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
