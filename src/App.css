@@ -185,10 +185,6 @@ a:focus {outline:0;}
     color: #E2EFFF;
 }
 
-.contact-page {
-    margin-bottom: 18rem;
-}
-
 
 /* About Us */
 .about-page {
@@ -286,5 +282,11 @@ a:focus {outline:0;}
     .experience-page ul.timeline > li:last-child {
         padding-bottom: 20rem;
         margin-bottom: 0rem;
+    }
+
+    .contact-page {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-bottom: 18rem;
     }
 }
