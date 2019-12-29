@@ -17,17 +17,17 @@ class About extends Component {
                     <Col xs={12} lg={6} className="mt-2">
                         <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="200">
                             <p>
-                            Hi! I’m Cristiano Perdigão, an Full-Stack developer.
+                            Hi, I’m Cristiano Perdigão, a Full-Stack developer.
                             </p>
                         </Animated>
                         <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="400">
                             <p>
-                            An Portuguese living in London,UK. I can help developers, companies and individuals bring their dreams to life on the web.
+                            A Portuguese living in London, UK. I help developers, companies and individuals to bring their dreams to life on the web.
                             </p>
                         </Animated>
                         <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="600">
                             <p>
-                                I develop exceptional websites and web apps that provide intuitive, user interfaces with efficient and modern backends.
+                                I develop exceptional websites and web apps that provide intuitive user interfaces with efficient and modern backends.
                             </p>
                         </Animated>
                     </Col>

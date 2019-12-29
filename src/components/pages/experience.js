@@ -74,7 +74,7 @@ class Experience extends Component {
                                             <p>- Monitoring of the sites and services;</p>
                                             <p>- Ensuring 24/7 uptime and liaising with parties responsible to achieve constant uptime;</p>
                                             <p>- PHP 5.6.x with custom framework;</p>
-                                            <p>- SOAP and REST Api modeling and development;</p>
+                                            <p>- SOAP and REST API modeling and development;</p>
                                             <p>- Mysql data modeling;</p>
                                             <p>- Software Architecture;</p>
                                             <p>- Converting static designs into live web pages and animations;</p>
@@ -101,12 +101,12 @@ class Experience extends Component {
                                         </Col>
 
                                         <Col xs={12} className="experience-timeline-item-content">
-                                            <p>- Development of features on products to the company using PHP 5.6, JavaScript, HTML5, CSS and SQL;</p>
+                                            <p>- Development of features on products for the company using PHP 5.6, JavaScript, HTML5, CSS and SQL;</p>
                                             <p>- Providing maintenance, updates and bug fixes for live projects;</p>
-                                            <p>- Production, research and development of application software run on a MySQL;</p>
+                                            <p>- Production, research and development of application software run on MySQL;</p>
                                             <p>- Scrum development methodology;</p>
                                             <p>- Using Bamboo to Continuous Integration;</p>
-                                            <p>- The post mainly involves development on the bit8 platform frontend, user interfaces, and game engine;</p>
+                                            <p>- The post mainly involved development on the bit8 platform frontend, user interfaces, and game engine;</p>
                                         </Col>
                                     </Row>
                                 </li>
@@ -130,7 +130,7 @@ class Experience extends Component {
                                         </Col>
 
                                         <Col xs={12} className="experience-timeline-item-content">
-                                            <p>- Developing frontend and backend of platform to support lawyers and all features about environment to them including control payments, time, files, contacts and legal actions;</p>
+                                            <p>- Developing frontend and backend of platform to support lawyers and all features including control payments, time, files, contacts and legal actions;</p>
                                             <p>- Creating the backend using PHP 5.4.x based on MVC;</p>
                                             <p>- Creating the architecture of database system;</p>
                                             <p>- Scrum development methodology;</p>
@@ -212,7 +212,7 @@ class Experience extends Component {
                                                     - SOAP and REST Api modeling and development; <br />
                                                     - Microservices with Laravel Framework based on the pattern CQRS; <br />
                                                     - Agile on SCRUM and Git workflow; <br />
-                                                    - ETL processes with python; <br />
+                                                    - ETL processes with Python; <br />
                                                     - Providing maintenance; <br />
                                                     - Frontend development with Angular;
                                                 </Col>
@@ -239,7 +239,7 @@ class Experience extends Component {
                                                     - Monitoring of the sites and services; <br />
                                                     - Ensuring 24/7 uptime and liaising with parties responsible to achieve constant uptime; <br />
                                                     - PHP 5.6.x with custom framework; <br />
-                                                    - SOAP and REST Api modeling and development; <br />
+                                                    - SOAP and REST API modeling and development; <br />
                                                     - Mysql data modeling; <br />
                                                     - Software Architecture; <br />
                                                     - Converting static designs into live web pages and animations; <br />
@@ -258,12 +258,12 @@ class Experience extends Component {
                                                     <FontAwesomeIcon icon={faMapMarkerAlt} /> Gzira, Malta
                                                 </Col>
                                                 <Col xs={12} className="experience-item-content mb-4">
-                                                    - Development of features on products to the company using PHP 5.6, JavaScript, HTML5, CSS and SQL; <br />
+                                                    - Development of product features for the company using PHP 5.6, JavaScript, HTML5, CSS and SQL; <br />
                                                     - Providing maintenance, updates and bug fixes for live projects; <br />
-                                                    - Production, research and development of application software run on a MySQL; <br />
+                                                    - Production, research and development of application software run on MySQL; <br />
                                                     - Scrum development methodology; <br />
                                                     - Using Bamboo to Continuous Integration; <br />
-                                                    - The post mainly involves development on the bit8 platform frontend, user interfaces, and game engine; <br />
+                                                    - The post mainly involved development on the bit8 platform frontend, user interfaces, and game engine; <br />
                                                 </Col>
                                             </Row>
                                         </Tab.Pane>
@@ -279,7 +279,7 @@ class Experience extends Component {
                                                     <FontAwesomeIcon icon={faMapMarkerAlt} /> Setubal, Portugal
                                                 </Col>
                                                 <Col xs={12} className="experience-item-content mb-4">
-                                                    - Developing frontend and backend of platform to support lawyers and all features about environment to them including control payments, time, files, contacts and legal actions; <br />
+                                                    - Developing frontend and backend of platform to support lawyers and all features including control payments, time, files, contacts and legal actions; <br />
                                                     - Creating the backend using PHP 5.4.x based on MVC; <br />
                                                     - Creating the architecture of database system; <br />
                                                     - Scrum development methodology; <br />

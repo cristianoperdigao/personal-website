@@ -16,7 +16,7 @@ class Contact extends Component {
                                 <p>
                                     I am not currently looking for full-time opportunities, <strong>but</strong> I am always open
                                     to collaborations and other fun stuff. If you’re interested in 
-                                    discussing a project, making something great together, or simply getting in touch. <br/>
+                                    discussing a project, making something great together, or simply getting in touch: <br/>
                                     
                                     <Button className="mt-4" href="https://www.linkedin.com/in/cristianoperdigao/" variant="outline-warning">Send me a message</Button>
                                 </p>

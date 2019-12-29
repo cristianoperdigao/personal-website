@@ -16,7 +16,7 @@ class Work extends Component {
                             <Card.Body>
                                 <Card.Title>Recipy</Card.Title>
                                 <Card.Text>
-                                    Discover recipes and how-tos based on the ingredients you have available.
+                                    Discover recipes and how-tos based on the available ingredients.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -28,16 +28,16 @@ class Work extends Component {
                     </Animated>
                     <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDelay="800">
                         <Card className="border-0">
-                            <Card.Img variant="top" src="./assets/img/swipedev.jpg" />
+                            <Card.Img variant="top" src="./assets/img/jmarques.jpg" />
                             <Card.Body>
-                                <Card.Title>Swipe Dev</Card.Title>
+                                <Card.Title>jmarques.pt</Card.Title>
                                 <Card.Text>
-                                    Match with companies you know, share ideas, and build your career.
+                                    The best place to find unique antiques online with international shipping.
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
                                 <span className="mr-3">Javascript</span>
-                                <span className="mr-3">Ruby</span>
+                                <span className="mr-3">PHP</span>
                                 <span className="mr-3">MySQL</span>
                             </Card.Footer>
                         </Card>
